@@ -1,13 +1,13 @@
 use std::mem;
 
 fn main() {
-    fibonacci(222);
+    fibonacci(92);
 }
 
-fn fibonacci(limit: i64) {
-    let mut sum: i64 = 0;
-    let mut current: i64 = 1;
-    let mut counter: i64 = 0;
+fn fibonacci(limit: u8) {
+    let mut sum: u64 = 0;
+    let mut current: u64 = 1;
+    let mut counter: u8 = 0;
 
     while counter < limit  {
         counter += 1;
